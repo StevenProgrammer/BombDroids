@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &199878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 494510}
+  - 114: {fileID: 11465020}
+  m_Layer: 0
+  m_Name: LeftCarSpawn5
+  m_TagString: Untagged
+  m_Icon: {fileID: -2663371497217273435, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &494510
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 199878}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24.515, y: 4.0267916, z: -15.035749}
+  m_LocalScale: {x: 1.1355023, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11465020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 199878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eaab53d13e160448b02264c30fc4c2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Timer: 0.5
+  Cars5:
+  - {fileID: 162996, guid: a850b55bf5ad49d4893284bf4ac201d1, type: 2}
+  - {fileID: 108782, guid: b31d3cec46f39774397997a25e747d3c, type: 2}
+  - {fileID: 115622, guid: d61486a2aacf8ff4db252f6b325ed946, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: Cars5.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Cars5.Array.data[2]
+      value: 
+      objectReference: {fileID: 115622, guid: d61486a2aacf8ff4db252f6b325ed946, type: 2}
+    - target: {fileID: 0}
+      propertyPath: Cars5.Array.data[0]
+      value: 
+      objectReference: {fileID: 162996, guid: a850b55bf5ad49d4893284bf4ac201d1, type: 2}
+    - target: {fileID: 0}
+      propertyPath: Cars5.Array.data[1]
+      value: 
+      objectReference: {fileID: 108782, guid: b31d3cec46f39774397997a25e747d3c, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 199878}
+  m_IsPrefabParent: 1
